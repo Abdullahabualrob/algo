@@ -22,7 +22,7 @@ def merge_sort(arr):
                 i += 1
             else:
                 merged.append(right[j])
-                j += 1
+                j += 1 
 
         merged.extend(left[i:])
         merged.extend(right[j:])
@@ -40,3 +40,4 @@ def quick_sort(arr):
         equal = [x for x in arr if x == pivot]
         greater = [x for x in arr[1:] if x > pivot]
         return quick_sort(less) + equal + quick_sort(greater)
+d
