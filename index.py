@@ -40,4 +40,4 @@ def quick_sort(arr):
         equal = [x for x in arr if x == pivot]
         greater = [x for x in arr[1:] if x > pivot]
         return quick_sort(less) + equal + quick_sort(greater)
-d
+dhhu
